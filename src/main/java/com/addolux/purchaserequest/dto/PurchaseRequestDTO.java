@@ -1,15 +1,6 @@
 package com.addolux.purchaserequest.dto;
 
-import javax.persistence.*;
-
-@Entity
-@Table(name = "purchase_requests")
 public class PurchaseRequestDTO {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "request_id")
-    private Long id;
 
     private String poNumber;
     private String date;
